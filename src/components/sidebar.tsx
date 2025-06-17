@@ -30,7 +30,7 @@ const sidebarData = [
       'Product Tnc',
     ],
   },
-  { title: 'Product Master', subItems: ["akash"] },
+  { title: 'Product Master', subItems: ["product name"] },
 ];
 
 const Sidebar = () => {
