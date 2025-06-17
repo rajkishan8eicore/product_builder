@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="flex flex-col w-screen h-screen">
       <Header />
-      <div className="flex flex-1">
+      <div className="flex flex-1 overflow-hidden">
         <SideBar />
         <MainScreen />
       </div>

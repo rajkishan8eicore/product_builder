@@ -41,7 +41,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-[260px] bg-[var(--sidebar)] min-h-screen p-0 border-r border-[var(--sidebar-border)]">
+    <div className="w-[260px] h-full overflow-y-auto bg-[var(--sidebar)] border-r border-[var(--sidebar-border)]">
       {sidebarData.map((item, idx) => (
         <div key={item.title}>
           <div
