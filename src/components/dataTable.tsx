@@ -20,7 +20,7 @@ type Props<T> = {
 function DataTable<T extends object>({ columns, data }: Props<T>) {
   return (
     <Table className="border border-gray-200 rounded-lg">
-      <TableHeader className="bg-gray-400">
+      <TableHeader className="bg-gray-400 dark:bg-cyan-800">
         <TableRow>
           {columns.map((col) => (
             <TableHead key={String(col.accessor)}>{col.header}</TableHead>
@@ -30,7 +30,7 @@ function DataTable<T extends object>({ columns, data }: Props<T>) {
       <TableBody>
         {data.map((row, rowIndex) => (
           <TableRow
-            className={`${rowIndex % 2 !== 0 ? "bg-green-100" : ""}`}
+            className={`${rowIndex % 2 !== 0 ? "bg-green-100 dark:bg-gray-700" : ""} `}
             key={rowIndex}
           >
             {columns.map((col) => (
