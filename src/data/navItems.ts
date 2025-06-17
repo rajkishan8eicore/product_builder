@@ -10,6 +10,9 @@ export const navItems = [
   "Quotation",
   "Claims",
   "Provider",
+  
+];
+export const viewMoreItems = [
   "View Policy",
   "Reinsurance",
   "Life",
