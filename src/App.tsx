@@ -6,9 +6,9 @@ import MainScreen from "./components/mainscreen";
 
 function App() {
   return (
-    <div className="w-screen h-screen">
+    <div className="flex flex-col w-screen h-screen">
       <Header />
-      <div className="flex">
+      <div className="flex flex-1">
         <SideBar />
         <MainScreen />
       </div>
