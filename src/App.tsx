@@ -1,8 +1,9 @@
 import "./App.css";
-import Footer from "./components/footer";
+import { Footer } from "./components/footer";
 import Header from "./components/header";
 import SideBar from "./components/sidebar";
 import MainScreen from "./components/mainscreen";
+import { Button } from "./components/ui/button";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       <Header />
       <div className="flex">
         <SideBar />
+        <Button className="m-4" variant="outline">
+          Click Me
+        </Button>
         <MainScreen />
       </div>
       <Footer />
