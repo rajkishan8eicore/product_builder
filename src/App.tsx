@@ -6,8 +6,6 @@ import SideBar from "./components/sidebar";
 import MainScreen from "./components/mainscreen";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
