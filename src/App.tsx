@@ -7,9 +7,9 @@ import { Button } from "./components/ui/button";
 
 function App() {
   return (
-    <div className="w-screen h-screen">
+    <div className="flex flex-col w-screen h-screen">
       <Header />
-      <div className="flex">
+      <div className="flex flex-1 overflow-hidden">
         <SideBar />
         <Button className="m-4" variant="outline">
           Click Me
