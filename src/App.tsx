@@ -11,9 +11,7 @@ function App() {
       <Header />
       <div className="flex flex-1 overflow-hidden">
         <SideBar />
-        <Button className="m-4" variant="outline">
-          Click Me
-        </Button>
+        
         <MainScreen />
       </div>
       <Footer />
